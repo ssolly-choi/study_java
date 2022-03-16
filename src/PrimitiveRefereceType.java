@@ -1,7 +1,7 @@
 public class PrimitiveRefereceType {   //220315
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            //Primitive Type, Reference Type
+        //Primitive Type, Reference Type
 
         /*
          - primitive type (원시 타입) : 변수에 값 자체를 저장
@@ -16,13 +16,13 @@ public class PrimitiveRefereceType {   //220315
          - UnBoxing : Wrapper class -> primitive type
         */
 
-            Integer a = new Integer(3);
-            int b = 3;
+        Integer a = new Integer(3);
+        int b = 3;
 
-            //Boxing
-            Integer c = (Integer) b;
-            //UnBoxing
-            int d = (int) a;
+        //Boxing
+        Integer c = (Integer) b;
+        //UnBoxing
+        int d = (int) a;
 
-        }
+    }
 }
